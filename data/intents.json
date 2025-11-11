@@ -1,0 +1,47 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "Hello", "Good morning", "Good evening", "What's up", "Yo"],
+      "responses": [
+        "Hey there! How can I help you today?",
+        "Hello! What would you like to know?",
+        "Hi! Ask me anything :-)"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Catch you later", "See ya"],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later",
+        "Bye! Come back anytime."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it", "Thanks a lot"],
+      "responses": [
+        "You're welcome!",
+        "Happy to help :-)",
+        "Any time!"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": ["Who are you?", "What are you?", "Tell me about yourself", "What can you do?"],
+      "responses": [
+        "I am a simple intent-based chatbot built with Python, NLTK, and Keras.",
+        "I classify your message into intents and reply from my responses list."
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": ["", "???", "........"],
+      "responses": [
+        "I didn't quite catch that—could you rephrase?",
+        "Hmm, I'm not sure about that. Try asking differently."
+      ]
+    }
+  ]
+}
